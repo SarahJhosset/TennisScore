@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "israel antezana",
+    "commit": {
+      "date": "2026-02-26T13:45:57.000Z",
+      "message": "plan de pruebas",
+      "url": "https://github.com/israelantezana/2026-1-TennisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 51,
+      "deletions": 2,
+      "date": "2026-02-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
