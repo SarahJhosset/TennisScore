@@ -288,9 +288,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "659a4c991a18718823f04ea8223170d96f72f179",
     "commitName": "feat:jugador 1 anota 4 veces",
     "commitTimestamp": 1772505915308,
     "testId": 8
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1772506070519,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:jugador 2 anota 1 vez",
+    "commitTimestamp": 1772506286270,
+    "testId": 9
   }
 ]
