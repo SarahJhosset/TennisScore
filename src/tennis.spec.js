@@ -80,7 +80,7 @@ it("ambos jugadores anotan 3, Deuce", () => {
     expect(game.score()).toEqual("Deuce");
   });
 // Si el juego esta en Deuce jugador 1 anota => "Advantage for Player 1"
-it("desde Deuce jugador 1 anota deberia ser Advantage for Player 1", () => {
+it("desde Deuce jugador 1 anota, Advantage for Player 1", () => {
     const game = new Tennis();
     game.player1Scores();
     game.player1Scores();
@@ -92,7 +92,7 @@ it("desde Deuce jugador 1 anota deberia ser Advantage for Player 1", () => {
     expect(game.score()).toEqual("Advantage for Player 1");
   });
 // Si el juego esta en Deuce jugador 2 anota => "Advantage for Player 2"
-  it("desde Deuce jugador 2 anota deberia ser Advantage for Player 2", () => {
+  it("desde Deuce jugador 2, Advantage for Player 2", () => {
     const game = new Tennis();
     game.player1Scores();
     game.player1Scores();
@@ -103,7 +103,32 @@ it("desde Deuce jugador 1 anota deberia ser Advantage for Player 1", () => {
     game.player2Scores();
     expect(game.score()).toEqual("Advantage for Player 2");
   });
-// estado en Advantage del jugador 1 anota una vez mas => "Game For Player"
+// estado en Advantage del jugador 1 anota una vez mas => "Game For Player 1"
+it("desde Advantage jugador 1 anota de nuevo, Game for Player 1", () => {
+    const game = new Tennis();
+    game.player1Scores();
+    game.player1Scores();
+    game.player1Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player1Scores();
+    game.player1Scores();
+    expect(game.score()).toEqual("Game for Player 1");
+});
+// estado en Advantage del jugador 2 anota una vez mas => "Game For Player 2"
+it("desde Advantage jugador 2 anota de nuevo deberia ganar Game for Player 2", () => {
+   const game = new Tennis();
+   game.player1Scores();
+   game.player1Scores();
+   game.player1Scores();
+   game.player2Scores();
+   game.player2Scores();
+   game.player2Scores();
+   game.player2Scores();
+   game.player2Scores();
+   expect(game.score()).toEqual("Game for Player 2");
+});
 });
 
 
