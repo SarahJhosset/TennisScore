@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "36d4dc2995bb0851bc96dd56f81cf5b26ce41afb",
     "author": "Sarah Cazorla",
     "commit": {
       "date": "2026-03-03T02:56:10.000Z",
       "message": "feat:jugador 2 anota 3 veces",
-      "url": "https://github.com/SarahJhosset/TennisScore/commit/HEAD"
+      "url": "https://github.com/SarahJhosset/TennisScore/commit/36d4dc2995bb0851bc96dd56f81cf5b26ce41afb"
     },
     "stats": {
       "total": 7,
@@ -224,6 +224,25 @@
     },
     "coverage": 52.38,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Sarah Cazorla",
+    "commit": {
+      "date": "2026-03-03T02:58:09.000Z",
+      "message": "feat:jugador 2 anota 4 veces",
+      "url": "https://github.com/SarahJhosset/TennisScore/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 56.52,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

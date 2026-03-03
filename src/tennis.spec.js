@@ -58,6 +58,16 @@ describe("Tennis Scorer", () => {
     game.player2Scores();
     expect(game.score()).toEqual("Love - 40");
   });
+
+  it("jugador 2 anota 4, Game for Player 2", () => {
+    const game = new Tennis();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    expect(game.score()).toEqual("Game for Player 2");
+  });
+
 });
 
 
