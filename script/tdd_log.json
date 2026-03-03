@@ -400,9 +400,15 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "279bb6a5152b7589366e00ae2fe4bed66c1c656d",
     "commitName": "feat: desde Advantage volver a Deuce",
     "commitTimestamp": 1772507462602,
     "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar presentacion",
+    "commitTimestamp": 1772537151009,
+    "testId": 17
   }
 ]
