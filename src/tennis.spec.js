@@ -68,6 +68,19 @@ describe("Tennis Scorer", () => {
     expect(game.score()).toEqual("Game for Player 2");
   });
 
+// Jugador 1 anota 3 veces jugador 2 anota 3 veces=> "Deuce"
+it("ambos jugadores anotan 3, Deuce", () => {
+    const game = new Tennis();
+    game.player1Scores();
+    game.player1Scores();
+    game.player1Scores();
+    game.player2Scores();
+    game.player2Scores();
+    game.player2Scores();
+    expect(game.score()).toEqual("Deuce");
+  });
+// Si el juego esta en Deuce jugador 1 anota => "Advantage for Player 1"
+// estado en Advantage del jugador 1 anota una vez mas => "Game For Player"
 });
 
 
