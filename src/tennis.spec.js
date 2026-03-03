@@ -38,10 +38,17 @@ describe("Tennis Scorer", () => {
   });
 
   //Para el jugador 2
-  it("jugador 2 anota 1 vez deberia ser Love - 15", () => {
+  it("jugador 2 anota 1, ser Love - 15", () => {
     const game = new Tennis();
     game.player2Scores();
     expect(game.score()).toEqual("Love - 15");
+  });
+
+  it("jugador 2 anota 2 veces, Love - 30", () => {
+    const game = new Tennis();
+    game.player2Scores();
+    game.player2Scores();
+    expect(game.score()).toEqual("Love - 30");
   });
 
 });
